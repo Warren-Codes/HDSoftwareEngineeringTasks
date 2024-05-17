@@ -1,0 +1,3 @@
+Compulsory Task 1 - https://github.com/Epimethic/Software-Engineering-Projects/blob/main/semantics.py
+
+Compulsory Task 2 - https://github.com/Epimethic/Software-Engineering-Projects/blob/main/watch_next.py

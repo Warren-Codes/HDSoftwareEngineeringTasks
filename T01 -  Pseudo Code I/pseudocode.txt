@@ -1,0 +1,37 @@
+Example 1: 
+start
+	request number from user
+	if the number is positive
+		repeat
+	else the number is zero value
+		determine the largest of the numbers
+	print largest number
+end
+
+Example 2:
+start	
+	read x integers 
+	add x integers together to find the total
+	divide total by x integers to find the average
+	return average
+end
+
+Example 3:
+start
+	read grocery list
+	for item in grocery list
+		if grocery has been bought
+			remove from list
+	sort list alphabetically
+	print list
+end
+	
+		
+Example 4:
+start
+	request a value of X and Y from the user
+	S = X + Y
+	A = S/2
+	P = X * Y
+	return the value of S, A, P
+end

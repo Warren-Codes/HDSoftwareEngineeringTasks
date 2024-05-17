@@ -1,0 +1,36 @@
+QUESTIONS
+
+1. Define each of the following terms:
+a) Data
+b) Field
+c) Record
+d) File
+
+2. What is a DBMS and what are its advantages?
+3. Explain the difference between data and information.
+4. What is metadata?
+5. Given the file below, answer the following questions:
+e) How many records does the file contain?
+f) How many fields are there per record?
+
+ANSWERS
+
+1. 
+a) Data is raw facts. They have little meaning unless organised into a logical manner.
+b) Field is a character, or, a group of characters that each have a specific meaning.
+c) Record is data that has been logically connected through one or more fields. It usually ddescibes a noun (person, place or thing)
+d) File is a collection of related records.
+
+2) A Database Management System (DBMS) is a collection of programs that works to manage the database structure and control access to the data 
+stored in the database. One of the advantages of using a DBMS is that it acts as an intermediary between the user and the database. It allows 
+data management to be more effective though better data sharing, improved data integration, minimised data inconsistency, improved data access, 
+improved decision making and increased end-user productivity.
+
+3) Data is raw facts that hasn't been processed to reveal its meaning. Information is the result of processing raw data to reveal its meaning.
+Decision making relies on information, not just raw data.
+
+4) Metadata is data that provides information about other data. It does not provide the content of the data.
+
+5.
+e) The file contains 4 records.
+f) There are 5 fields per record.

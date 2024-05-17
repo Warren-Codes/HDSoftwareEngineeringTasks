@@ -1,0 +1,9 @@
+1. Normalisation is a process for evaluating and correcting table structures to minimise data redundancies and therefore reduce 
+the likelihood of data anomalies. It works through a series of stages called normal forms. Each table should represent a single 
+subject. No data item will be unnecessarily stored in more than one table. All attriutes in a table are dependent on the primary key.
+
+2. A table is in 1NF when all of the key attributes are defined, there are no repeating groups in the table and all attributes are dependent on the primary key. 
+
+3. A table is in 2NF when it is in 1NF and it includes no partial dependencies, which is no attribute is dependent on only a portion of the primary key.
+
+4. A table is in 3NF when it is in 2NF and it contains no transitive dependencies.

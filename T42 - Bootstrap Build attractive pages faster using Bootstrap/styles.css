@@ -1,0 +1,24 @@
+.burgerWrapper {
+  margin-bottom: 20px;
+}
+
+.button-break {
+  margin-bottom: 20px;
+}
+
+.burger-image {
+    transition: 0.3s;
+}
+.burger-image:hover {
+    filter: brightness(50%) !important;
+}
+
+.hover-image {
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
+.hover-image:hover {
+    opacity: 0.5 !important;
+}
+

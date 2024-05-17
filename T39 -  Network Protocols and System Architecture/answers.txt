@@ -1,0 +1,16 @@
+1. A protocol is a set of rules and conventions that define how devices on a network should communicate with each other. It specifies the format of the data that is 
+transmitted, as well as the rules for sending and receiving that data. 
+
+2. HTTP is built on top of the TCP (Transmission Control Protocol). TCP is a connection-oriented protocol that is responsible for establishing, maintaining, and terminating 
+connections between two devices on a network.
+
+3. If a request is successful, the status code of the response will typically be 200. 200(OK) indicates that the request was successful and that the requested information 
+is being returned in the response. 
+
+4. A stateless protocol is a communication protocol in which each request made by a client to a server is independent of any other request. This means that the server does not
+retain any information about previous requests made by the client, and each request is treated as a completely new request.
+
+5. The following are valid MIME types: image/jpeg, text/javascript, image/psd and text/calendar.
+
+6. If a server does not allow you permission to request a specific resource, you can expect to receive a status code of 401 (Unauthorized). This status code indicates that 
+the request requires authentication, and that the client must provide credentials in order to access the resource.

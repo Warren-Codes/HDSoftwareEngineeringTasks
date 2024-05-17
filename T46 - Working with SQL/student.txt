@@ -1,0 +1,76 @@
+# SQL #
+
+# This creates the table#
+
+CREATE TABLE Student (
+	Stu_Num char(6),
+    Stu_Sname varchar(15),
+    Stu_Fname varchar(15),
+    Stu_Initial char(1),
+    Stu_Startdate date,
+    Course_Code char(3),
+    Proj_Num int(2),
+    PRIMARY KEY (Stu_Num)
+) ;
+
+
+# This inserts the relevant information into the table#
+
+INSERT INTO Student
+ 	VALUES (01, 'Snow', 'John', 'E', '05-Apr-14', 201, 6);
+
+INSERT INTO Student
+ 	VALUES (02, 'Stark', 'Arya', 'C', '12-Jul-17', 305,11);
+
+INSERT INTO Student
+ 	VALUES (03, 'Lannister', 'Jamie', 'J', '05-Sep-12', 101, 2);
+
+INSERT INTO Student
+ 	VALUES (04, 'Lannister', 'Cersei', 'J', '05-Sep-12', 101, 2);
+
+INSERT INTO Student
+ 	VALUES (05, 'Greyjoy', 'Theon', 'I', '09-Dec-15', 402, 14);
+
+INSERT INTO Student
+ 	VALUES (06, 'Tyrell', 'Margery', 'Y', '12-Jul-17', 305, 10);
+
+INSERT INTO Student
+ 	VALUES (07, 'Baratheon', 'Tommen', 'R', '13-Jun-19', 201, 5);
+
+
+# This selects all records where the course code is 305#
+SELECT * FROM Student
+WHERE Course_code = 305
+
+
+# This updates stu_num 7 with a course_code of 304#
+UPDATE Student
+SET Course_code = 304
+WHERE Stu_num = 7
+
+
+
+# This deletes the Jamie Lannister record at position 3 in the table#
+# I don't understand why I need to do all of the below when DELETE FROM Student WHERE Stu_Num = 3; also provides the same result #
+DELETE FROM Student
+WHERE Stu_Fname = 'Jamie'
+AND Stu_Sname = 'Lannister'
+AND Stu_Startdate = '05-Sep-12'
+AND Course_Code = '101'
+AND Proj_Num = 2;
+
+
+
+# This sets the Proj_Num to 14 if the start date is less than 1 jan 16 and where the course_code is at least 201#
+UPDATE Student
+SET Proj_Num = 14
+WHERE Stu_Startdate < '1-Jan-16' and Course_code >= 201;
+
+
+
+# This deletes all data inside the table#
+DELETE FROM Student;
+
+
+# This removes all evidence of the table#
+DROP TABLE Student;

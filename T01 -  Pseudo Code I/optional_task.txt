@@ -1,0 +1,8 @@
+start
+	request first number from user
+	request second number from user
+	request third number from user
+	request fourth number from user
+	sort the four numbers from smallest to largest
+	print the sorted numbers
+end

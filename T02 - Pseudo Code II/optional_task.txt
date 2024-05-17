@@ -1,0 +1,11 @@
+start
+	define fibonacci numbers(fn)
+		fn1 = 0
+		fn2 = 1
+		fn3 = the sum of the two previous fn
+		loop
+	request a number from the user
+	store the number in a variable called "n"
+	print the first "n" fibonacci numbers
+end
+	
